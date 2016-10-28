@@ -1,0 +1,40 @@
+
+
+html{
+   
+    background-image: url("http://www.educacionline.com/instituto-de-marketing-online/wp-content/uploads/Facebook-y-Twitter-como-fuentes-de-informaci%C3%B3n.jpg");
+}
+
+
+#bloque{
+    margin-top: 30px;
+    margin-left:400px;
+    background-color: #7f26a4;
+    height: 400px;
+    width: 500px;
+    border-radius: 50px;
+    
+}
+
+#bloque1{
+    margin-left:1px;
+    background-color:#0c90a0;
+    height: 80px;
+    width: 500px;
+    border-radius: 30px;
+    
+}
+
+h1
+{
+    padding: 25px;
+    padding-left: 160px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4,p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding-left:100px; 
+}

@@ -1,0 +1,405 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+}
+
+.wrapper{
+    margin: 40px;
+    padding: 40px;
+    color: blue;
+}
+
+body{
+    background: black;
+}
+
+
+.clear{
+    clear: both;
+}
+/** crear menu **/
+.cubridor{
+    width: 100%;
+    height: 80px;
+    background: #2495c9;
+}
+header{
+    margin-top: 10px;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 100;
+}
+
+nav{
+    top: -20px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 20px 0;
+    width: 100%;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav > ul{
+    display: table;
+    width: 100%;
+    background:rgb(14, 8, 22);
+    position: relative;
+}
+
+nav > ul  li{
+    display: table-cell;
+}
+
+/*submenu */
+
+nav >ul >li:hover >ul{
+    display: block;
+    height: 100%;
+}
+
+nav >ul >li >ul{
+    display: block;
+    position: absolute;
+   background:rgb(14, 8, 22);
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    height: 0%;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+
+/**************/
+
+nav > ul li a{
+    font-size: 1em;
+    color: white;
+    display: block;
+    line-height: 20px;
+    padding: 20px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+nav >ul > li >ul >li a:hover{
+    background: #a239ca;
+    border-radius: 25%;
+}
+
+nav > ul > li a span{
+    background: #2495c9;
+    display: block;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    top: -55px;
+}
+nav > ul > li a span .icon{
+    display: block;
+    line-height: 60px;
+}
+
+nav >ul >li > a:hover >span{
+    top: 0;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.header2{
+    position: fixed;
+}
+
+/*
+.jewel{
+    background: #4717f6;
+
+}
+.stark{
+    background: #e7dfdd;
+}*/
+/********************/
+
+/*** slider ****/
+#galeria{
+    width: 100%;
+    background: #0e0816;
+}
+
+.flex-caption {
+  width: 96%;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  color: #fff;
+  /* text-shadow: 0 -1px 0 rgba(0,0,0,.3); */
+  font-size: 26px;
+  /* line-height: 30px; */
+}
+
+.flex-caption .enlace-caption{
+  width: 96%;
+  display: block;
+  /* padding: 2%; */
+  left: 0;
+  bottom: 0;
+  /* margin-top: 20px; */
+  color: #a239ca;
+  text-decoration: none;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+  font-size: 26px;
+  /* line-height: 10px; */
+}
+
+.icon{
+    font-size: 20px;
+}
+/**********************************/
+
+/*** cuerpo de la pagina ***/
+
+#cuerpo, #izq, #der, #social {
+    /*border: 0.5px solid black;*/
+}
+#cuerpo{
+    width: 90%;
+    margin: 0 auto;
+    background: black;
+}
+
+#izq{
+    float: left;
+    width: 30%;
+}
+
+#der{
+    float: right;
+    width: 70%;
+    
+}
+
+/* columna izquierda */
+.seccion-izq{
+    width: 100%;
+    padding: 10px 10px;
+    margin-bottom: 60px;
+    background: #0e0816;
+}
+
+.button{
+    background: #7f8c8d;
+    color: #fff;
+    display: block;
+    font-size: 20px;
+    margin: 20px;
+    padding: 10px 5px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+    width: 80%;
+    -webkit-box-shadow: inset -7px -8px 43px -6px rgba(51,51,51,0.71);
+    -moz-box-shadow: inset -7px -8px 43px -6px rgba(51,51,51,0.71);
+    box-shadow: inset -7px -8px 43px -6px rgba(51,51,51,0.71);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.icon-button{
+    margin: 0 0 0 10px;
+}
+
+.button.kattya{
+    background: #e67e22;
+}
+
+.button.facebook{
+    background: #3b5998;
+}
+
+.button.googlemax{
+    background:  #d34836;
+}
+
+.button.youtube{
+    background: #b31217;
+}
+
+.button.articulos{
+    background: #2980b9;
+}
+
+.button.zona-art{
+    background: #1abc9c;
+}
+
+.button:hover{
+    font-size: 30px;
+    -webkit-box-shadow: inset 12px 9px 300px 53px rgba(26,25,26,1);
+-moz-box-shadow: inset 12px 9px 300px 53px rgba(26,25,26,1);
+box-shadow: inset 12px 9px 300px 53px rgba(26,25,26,1);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    
+}
+
+.button.articulos:hover{
+    font-size: 25px;
+}
+
+.button.zona-art:hover{
+    font-size: 25px;
+}
+
+.neon{
+	text-align: center;
+    padding: 10px 0;
+    margin-top: 15px;
+    font-size: 60px;
+	color: #fff;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #ff00de, 0 0 25px #ff00de;
+	-webkit-text-fill-color: #F4ECFF;
+	-webkit-text-stroke-color:#C546F7;
+	-webkit-text-stroke-width:0.2px; 
+}
+/**********************/
+
+/** columna derecha **/
+    .vista-articulo{
+        background: #0e0816;
+        width: 90%;
+        margin: 0 auto;
+        overflow: hidden;
+        margin-bottom: 60px;
+
+    }
+
+
+    .contenido-articulo{
+        background: #0e0816;
+        font-family: Roboto;
+        float: left;
+        color: white;
+        padding: 10px 30px 20px 30px;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 2px;
+        word-spacing: 4px;
+    }
+    
+    .img-articulo{
+        width: 300px;
+        height: 250px;
+        float: left;
+        margin: 0 20px 20px 20px;
+        border-radius: 5px;
+        
+    }
+
+    .button.leermas{
+        background: #9b59b6;
+    }
+/**************/
+/**************/
+
+/** pie de pagina **/
+footer{
+    width: 90%;
+    background: #0e0816;
+    padding: 30px;
+    margin: 0 auto 0 auto;
+    overflow: hidden;
+    color: white;
+}
+
+#creadores{
+    float: left;
+    font-size: 20px;;
+
+    
+}
+
+#creadores p{
+    font-family:'Open Sans';
+    margin-bottom: 10px;
+}
+
+#proposito{
+    float: right;
+    font-size: 20px;
+   
+    
+}
+/************************/
+
+/** formulario de contacto ***/
+form{
+    width: 90%;
+    margin: 10px auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+
+.campo-form{
+    width: 100%;
+    float: left;
+    margin: 0 auto 20px auto;
+    padding: 20px;
+}
+
+.campo{
+        width: 90%;
+        display: block;
+        font-family: Roboto;
+        padding: 10px 30px 10px 30px;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 2px;
+        word-spacing: 4px;
+        background: rgba(231, 223, 221, 0.9);
+}
+
+.campo:focus{
+   
+    border: 3px solid #2495c9;
+}
+
+.enviar{
+    background: #27ae60;
+}
+
+.reset{
+    background: #16a085;
+}
+
+#msm{
+    height: 200px;
+}
+/*****************/

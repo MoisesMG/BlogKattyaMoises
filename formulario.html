@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset="UFT-8">
+        <link type="text/css" rel="stylesheet" href="css/style_for.css">
+        <title>Contactenos</title>
+    </head>
+    <body>
+        <form id="formulario" method= "post" action= "email.php" > 
+            <div>
+                <label>Nombre Completo:</label>&nbsp;&nbsp;
+                <input type="text" name="nombreCompleto" required/>
+            </div>
+            <br>
+             <div>
+                <label>Sexo: </label>&nbsp;&nbsp;
+                <select name="Sexo">
+                    <option value="0">Seleccione...</option>
+                    <option value="1">Feminino</option>
+                    <option value="2">Masculino</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label>Correo Electronico: </label>&nbsp;&nbsp;
+                <input type="text" placeholder="juan@gmail.com" name="correo" required/>
+            </div>
+            <br>
+            <div>
+                <label>Mensaje: </label>&nbsp;&nbsp;
+                <textarea rows="5" required name="mensaje"></textarea>
+            </div>
+            <br><br>
+            <div >
+                <input id="boton" type="submit"  value="Enviar" required/>&nbsp;&nbsp;
+                <input id="boton" type="reset" required/>&nbsp;&nbsp;
+            </div>
+        </form>
+
+        <div id="reloj" style="text-align:center;width:400px;padding:1em 0;"> <h2><a style="text-decoration:none;" href="http://www.zeitverschiebung.net/es/country/ni"><span style="color:gray;">Hora actual en</span><br />Nicaragua</a></h2> <iframe src="http://www.zeitverschiebung.net/clock-widget-iframe-v2?language=es&timezone=America%2FManagua" width="100%" height="150" frameborder="0" seamless></iframe> <small style="color:gray;">&copy; <a href="http://www.zeitverschiebung.net/es/" style="color: gray;">Diferencia horaria</a></small> </div>
+    </body>
+</html>
