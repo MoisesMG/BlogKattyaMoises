@@ -60,6 +60,7 @@ header nav a:hover{
 .header2{
     position: fixed;
     height: 100px;
+    background: rgba(215,92,55,0.8);
 }
 
 .header2 .logo{
